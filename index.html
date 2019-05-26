@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Interactive Image Gallery</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 class="text-center">Interactive Image Gallery</h1>
+
+        <div class="container-fluid d-inline-block text-center">
+            <ul class="gallery">
+                <li class="gallery-item">
+                    <img src="./images/mounthood.jpg">
+                    <p class="caption">Mount Hood, USA</p>
+                </li>
+
+                <li class="gallery-item">
+                    <img src="./images/banff.jpg">
+                    <p class="caption 2">Banff National Park, Canada</p>
+                </li>
+                
+                <li class="gallery-item">
+                    <img src="./images/snowdonia.jpg">
+                    <p class="caption 3">Snowdonia, UK</p>
+                </li>
+
+                <li class="gallery-item">
+                    <img src="./images/knoxville.jpg">
+                    <p class="caption">Knoxville, USA</p>
+                </li>
+
+                <!-- <li class="gallery-item">
+                    <img src="./images/antelope.jpg">
+                    <p class="caption">Antelope Canyon, USA</p>
+                </li> -->
+
+                <li class="gallery-item">
+                    <img src="./images/tulips.jpg">
+                    <p class="caption">Unknown, The Netherlands</p>
+                </li>
+
+                <!-- <li class="gallery-item">
+                    <img src="./images/winniethepooh.png">
+                    <p class="caption">As requested by Ahnoosh</p>
+                </li>
+                 -->
+            </ul>
+        </div>
+
+        <div class="lightbox hidden">
+            <div class="lightbox-content">
+                <div class="lightbox-controls">
+                    <a href="" class="lightbox-close">Close</a>
+                    <a href="" class="lightbox-prev">Prev</a>
+                    <a href="" class="lightbox-next">Next</a>
+                </div>
+                
+                <div class="lightbox-image">
+                    <img src="./images/snowdonia.jpg">
+                    <p class="caption">Tulips in the Netherlands</p>
+                </div>
+            </div>
+        </div>
+
+    
+    <script src="scripts.js"></script>
+    </body>
+</html>
